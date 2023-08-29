@@ -1,7 +1,7 @@
 # net_practice
 <img width="642" alt="Screen Shot 2023-08-29 at 2 35 30 PM (1)" src="https://github.com/aennaouh/net_practice/assets/116731966/d857b19f-8554-4eb6-a20c-90d4e9517f68">
-every device in the network has a unique ip adderss ech address can access different ports for exchanging data with other ip addresses 
 
+every device in the network has a unique ip adderss ech address can access different ports for exchanging data with other ip addresses 
 - you can think of adresses as phone numbers and
 - ports as the calls between them
 
@@ -17,9 +17,7 @@ port numbers are like a particular phone extension once the call is answered
 - A client needs to know the IP address of whatever server wants to connect to , and also needs to know the port number through which to send or receive data , after the call established
 - the server only need to listen to connections, then chose to accept or reject
 - TCP/IP also perform error checking to guarantee that there will be no error in the transmission
-    
-    ![Screen Shot 2023-08-16 at 11.37.08 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb6df4c4-784a-4f64-b57d-7561ad2d5dca/Screen_Shot_2023-08-16_at_11.37.08_AM.png)
-    
+    <img width="1267" alt="Screen Shot 2023-08-16 at 11 37 08 AM" src="https://github.com/aennaouh/net_practice/assets/116731966/5c939f66-a841-45dd-87a2-3229dc802c89">
     **Subnet Mask (often just referred to as the 'Mask')**:
     
     A subnet mask is used to divide an IP address into two parts: the network address and the host address. It's like determining which part of your home address refers to your city and which part refers to your specific street.
@@ -48,8 +46,8 @@ port numbers are like a particular phone extension once the call is answered
     
     this is the traditional view of the tcp model the layers we see here 
     
-    ![Screen Shot 2023-08-16 at 3.27.46 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/186c1a87-7d53-4264-a237-08e95508b94c/Screen_Shot_2023-08-16_at_3.27.46_PM.png)
-    
+    <img width="217" alt="Screen Shot 2023-08-16 at 3 27 46 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/5ee85c5f-a134-4b16-94c9-140b4fffe884">
+
     - 0 : network id
     - 128: brodcast ip
     - IP adresses are 32 bits
@@ -68,31 +66,27 @@ port numbers are like a particular phone extension once the call is answered
         The IP address **1**  is called a loopback address. Packets sent to this address never reach the network but are looped through the network interface card only. This can be used for diagnostic purposes to verify that the internal path through the TCP/IP protocols is working.
         
 
-![Screen Shot 2023-08-17 at 6.27.38 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1a68b924-5ba6-4b08-b1cb-8c5e8cfe0e3f/Screen_Shot_2023-08-17_at_6.27.38_PM.png)
-
-![Screen Shot 2023-08-17 at 8.18.04 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26fc4e2c-da9b-426e-bf0e-a0dde8bf98b1/Screen_Shot_2023-08-17_at_8.18.04_PM.png)
-
-![Screen Shot 2023-08-17 at 8.25.23 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb4ed1d4-984d-4f66-a30d-742ee1cc9c96/Screen_Shot_2023-08-17_at_8.25.23_PM.png)
-
-![Screen Shot 2023-08-17 at 8.30.12 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e161ebb4-d13a-4934-a331-faf03b3b9691/Screen_Shot_2023-08-17_at_8.30.12_PM.png)
+<img width="742" alt="Screen Shot 2023-08-17 at 6 27 38 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/455d0617-66ac-4e19-b659-b57d1888d7a4">
+<img width="719" alt="Screen Shot 2023-08-17 at 8 18 04 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/d7ea87b9-fc65-4b95-86ec-a491f0ee2fbd">
+<img width="861" alt="Screen Shot 2023-08-17 at 8 25 23 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/5d4d56b3-fb6e-45f3-b89c-4d84d7628b83">
+<img width="799" alt="Screen Shot 2023-08-17 at 8 30 12 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/a22a9aea-5555-47ec-bd73-6b655d7a6371">
 
 ****What is Subnetting?****
 
-![Screen Shot 2023-08-17 at 8.51.47 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40aa713c-9044-4eac-be98-516adaa94c3f/Screen_Shot_2023-08-17_at_8.51.47_PM.png)
+<img width="976" alt="Screen Shot 2023-08-17 at 8 51 47 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/a6a2d982-72a3-427b-b2df-55ec66054873">
 
 240
 
 ****Drawing the Cheat Sheet -****
 
-![Screen Shot 2023-08-18 at 6.05.55 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f86548c-011c-4abe-9139-9e5b98f12295/Screen_Shot_2023-08-18_at_6.05.55_PM.png)
-
-![Screen Shot 2023-08-17 at 9.59.46 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b72b9eb-5ea9-41ff-abed-feb5e6c7f0d4/Screen_Shot_2023-08-17_at_9.59.46_PM.png)
+<img width="481" alt="Screen Shot 2023-08-18 at 6 05 55 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/e03492a1-58e5-46ac-bc82-490d9621ef26">
+<img width="871" alt="Screen Shot 2023-08-17 at 9 59 46 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/4249c937-8509-4fb0-a9e9-7ab8b6a7b255">
 
 ****Practice Examples****
 
-![Screen Shot 2023-08-17 at 10.44.55 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb7f7f3c-4501-4db2-a8e6-9cb73201f79f/Screen_Shot_2023-08-17_at_10.44.55_PM.png)
+<img width="761" alt="Screen Shot 2023-08-17 at 10 44 55 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/98424acf-da00-4740-8ce2-3ecbfe983b31">
+<img width="774" alt="Screen Shot 2023-08-17 at 11 24 55 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/d6179e45-259d-4f80-b11a-af1ed5f8241b">
 
-![Screen Shot 2023-08-17 at 11.24.55 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e71242c-9c56-4e15-9ef6-e0b1f859c9ea/Screen_Shot_2023-08-17_at_11.24.55_PM.png)
 
 ****OSI Model: A Practical Perspective :****
 
@@ -100,13 +94,15 @@ port numbers are like a particular phone extension once the call is answered
 - ***data link***
 - ***physical***
 
-![Screen Shot 2023-08-18 at 3.28.33 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/250fb46d-895b-4b6f-9753-98a503601120/Screen_Shot_2023-08-18_at_3.28.33_PM.png)
+<img width="1001" alt="Screen Shot 2023-08-18 at 3 28 33 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/dd063fa4-3929-40b9-a5f7-016e74b5e986">
+
 
 ****OSI Model: A Practical Perspective :****
 
 - **transport**
 
-![Screen Shot 2023-08-18 at 3.50.36 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0890d64-93a5-4d38-b426-aed61a704240/Screen_Shot_2023-08-18_at_3.50.36_PM.png)
+<img width="915" alt="Screen Shot 2023-08-18 at 3 50 36 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/fc7d7f0d-b1b0-4601-821f-5eaccd6de9bb">
+
 
 **that layer header will indicate which particular programe should be receiving that data and that’s what layer four is going to use to make sure the right program the right once and zeros**
 
@@ -114,20 +110,21 @@ port numbers are like a particular phone extension once the call is answered
 
 each layer of this lesson is to understanding that each layer of the OSI model has a specific that contributes the overall goal of allowing to hosts to share data with one anther
 
-![Screen Shot 2023-08-18 at 4.08.36 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35362c4b-a444-4645-a6f9-1438d8f98379/Screen_Shot_2023-08-18_at_4.08.36_PM.png)
+<img width="899" alt="Screen Shot 2023-08-18 at 4 08 36 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/df40b695-2b91-4452-9476-4f40a65238db">
+
 
 **IP Addresses PUBLIC & PRIVTE**
 
-![Screen Shot 2023-08-19 at 6.51.10 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a151a7e-ffff-478f-a67f-aa2ded0f793c/Screen_Shot_2023-08-19_at_6.51.10_PM.png)
+<img width="892" alt="Screen Shot 2023-08-19 at 6 51 10 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/f88375d3-4833-4cb5-abdc-154756d5cad4">
 
 routing table
 
-![Screen Shot 2023-08-25 at 6.34.36 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c137d4b3-d87e-4b13-aed3-a0a8ec4d4643/Screen_Shot_2023-08-25_at_6.34.36_PM.png)
+<img width="1040" alt="Screen Shot 2023-08-25 at 6 34 36 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/88f5ab62-5669-4a10-a3c7-d91354c86468">
 
 ```c
 her how u can get the CIDR subnet and also the groupe of ech size
 ```
+<img width="584" alt="Screen Shot 2023-08-27 at 5 03 34 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/1ea2742b-4c71-4f06-b9e4-129bb330cb71">
 
-![Screen Shot 2023-08-27 at 5.03.34 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/395c4b07-c6e8-47d8-85b5-1e57a1fafe76/Screen_Shot_2023-08-27_at_5.03.34_PM.png)
+<img width="569" alt="Screen Shot 2023-08-27 at 4 57 27 PM" src="https://github.com/aennaouh/net_practice/assets/116731966/1d79712e-1021-4332-9a0e-84cada4460f6">
 
-![Screen Shot 2023-08-27 at 4.57.27 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9060c93-376c-4a26-a7af-2ca746f78dfc/Screen_Shot_2023-08-27_at_4.57.27_PM.png)
