@@ -1,6 +1,6 @@
 # net_practice
 
-![Uploading Screen Shot 2023-08-29 at 2.35.30 PM.png…]()
+! 2023-08-29 at 2.35.30 PM.png…]()
 
 every device in the network has a unique ip adderss ech address can access different ports for exchanging data with other ip addresses 
 
