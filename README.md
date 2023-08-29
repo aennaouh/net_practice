@@ -1,7 +1,5 @@
 # net_practice
-
-! 2023-08-29 at 2.35.30 PM.png…]()
-
+<img width="642" alt="Screen Shot 2023-08-29 at 2 35 30 PM (1)" src="https://github.com/aennaouh/net_practice/assets/116731966/d857b19f-8554-4eb6-a20c-90d4e9517f68">
 every device in the network has a unique ip adderss ech address can access different ports for exchanging data with other ip addresses 
 
 - you can think of adresses as phone numbers and
