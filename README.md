@@ -1,5 +1,5 @@
 # net_practice
-![Screen Shot 2023-08-29 at 2.35.30 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c2f2cb7-9bf8-4c33-a678-c73d23eb52ac/Screen_Shot_2023-08-29_at_2.35.30_PM.png)
+https://www.notion.so/Net_practice-825ad116f408448ba3539ddfe86a5778?pvs=4#fdbb276ec46740ab824ac04d8f17b135
 
 every device in the network has a unique ip adderss ech address can access different ports for exchanging data with other ip addresses 
 
